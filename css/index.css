@@ -1,0 +1,482 @@
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url(../fonts/BebasNeue\ Bold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url(../fonts/BebasNeue\ Book.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url(../fonts/BebasNeue\ Light.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url(../fonts/BebasNeue\ Regular.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Thin';
+    src: url(../fonts/BebasNeue\ Thin.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url(../fonts/Montserrat-Bold.otf) format('truetype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* IMAGEN PANTALLA GRANDE */
+
+.qr-img{
+    height: 180px;
+    margin-top: 15px;
+}
+
+.logo-img-lg{
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.imgs-lg{
+    padding-top:110px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Bebas Neue Regular';
+    font-size: 2.2rem;
+}
+
+.imagen-lg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* IMAGEN FONDO  */
+.imagen-fondo{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* Menu nav */
+
+/* LOGO MENU */
+.logo-menu{
+    height: 40px;
+}
+
+.navbar{    
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: rgba(0, 0, 0, 0.938);
+    font-family: montserrat;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    border-bottom: 1px solid #ffff;
+    text-align: right;
+    color: #ffff;
+    font-family: 'Bebas Neue Regular';
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ffff;
+    font-family: 'Bebas Neue Bold';
+    font-size: 18px;
+    text-shadow: 1px ;
+}
+
+.menu-bar .navbar-toggler{
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* titulo dileto */
+
+.titulos{
+    text-align: center;
+}
+
+.titulo{
+    margin-bottom: 0%;
+    margin-top: 60px;
+    text-align: center;
+    color: #ffff;
+    font-family: Bernadette Rough;
+}
+
+.titulo2{
+    margin-bottom: 0%;
+    color: #e8a900;
+    font-family: 'Bebas Neue Light';
+    position: relative;
+    text-indent: 55px;
+    bottom: 10px;
+}
+
+/* PROMOCIONES */
+
+.col-izq{
+    padding-bottom: 8.5px;
+    padding-top: 8.5px;
+    text-align: center;
+    padding-right: 3px;
+}
+
+.col-der{
+    padding-bottom: 8.5px;
+    padding-top: 8.5px;
+    text-align: center;
+    padding-left: 3px;
+}
+
+.img-promo{
+    height: 170px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+/* LINEA DIVISORA */
+.linea{
+    height: 2px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+/* Titulo menu pizzas */
+
+.titulo-menu{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-menu-pizza{
+    height: 90px;
+}
+
+/* MENU PIZZASS */
+
+.fila-1{
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-pizza{
+    background-color: #e8a900;
+    padding: 0%;
+    margin: 0% 15px 0% 15px;
+}
+
+.pizza1{
+    font-family: 'Bebas Neue Bold';
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    padding: 4px 80px 1px 80px;
+    margin: 0%;
+}
+.pizza-jamon{
+    font-family: 'Bebas Neue Bold';
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    padding: 4px 40px 1px 40px;
+    margin: 0%;
+}
+
+button.navbar-toggler{
+    outline: none!important;
+    border: none!important;
+    padding:0%;
+}
+
+.ingredientes{
+    background-color: #d49d03;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat Black'!important;
+    font-size: 0.65rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 4px 0 0 0;
+}
+
+/* PRECIOS PIZZA */
+
+.precios-linea{
+    background-color: #e8a900;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.precio{
+    margin-top: 2px;
+    color: black;
+    font-family: 'Bebas Neue Bold';
+    font-size: 1.2rem;
+}
+
+/* LINEA DIVISORA */
+.lineaEspe{
+    height: 2px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+/* TITULO MENU PIZZAS ESPECIALES */
+
+.titulo-menu-especiales{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img-menu-pizza-especiales{
+    height: 90px;
+}
+
+/* MENU PIZZAS ESPECIALES */
+
+.especiales-fila-1{
+    margin-top: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-pizza-especiales{
+    border-style: solid;
+    border-color: #e8a900;
+    border-width: 2px;
+    padding: 0%;
+    margin: 0% 15px 0% 15px;
+}
+
+.pizza1-especiales{
+    font-family: 'Bebas Neue Regular';
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding: 4px 80px 1px 80px;
+    margin: 0%;
+}
+
+.ingredientes-especiales{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat'!important;
+    font-size: 0.65rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* TITULO MENU PIZZAS EXTRAS */
+
+.titulo-menu-extras{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img-menu-pizza-extras{
+    height: 90px;
+}
+
+/* MENU PIZZAS EXTRAS */
+
+.extras-fila-1{
+    margin-top: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* PIZZAS SALSA BLANCA */
+.col-pizza-extras-sb{
+    background-color: #ffff;
+    padding: 0%;
+    margin: 0% 15px 0% 15px;
+}
+
+.pizza1-extras-sb{
+    font-family: 'Bebas Neue Black';
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    padding: 4px 0px 1px 0px;
+    margin: 0%;
+    display: inline-block
+}
+.pizza2-extras-sb{
+    font-family: 'Bebas Neue Black';
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    padding: 4px 0px 1px 0px;
+    margin: 0%;
+    display: inline-block;
+}
+
+.salsa-blanca{
+    padding: 0 50px 0 50px;
+}
+
+.salsa-blanca2{
+    padding: 0 40px 0 40px;
+}
+
+.salsa-blanca3{
+    padding: 0 30px 0 30px;
+}
+
+.ingredientes-extras-sb{
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat Black'!important;
+    font-size: 0.65rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+/* LAS OTRAS PIZZAS */
+.col-pizza-extras{
+    border-style: dashed;
+    border-color: #e8a900;
+    border-width: 2px;
+    padding: 0%;
+    margin: 0% 15px 0% 15px;
+}
+
+.pizza1-extras{
+    font-family: 'Bebas Neue Regular';
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding: 4px 80px 1px 80px;
+    margin: 0%;
+}
+
+.ingredientes-extras{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat'!important;
+    font-size: 0.65rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CALZONES */
+
+.col-calzoness{
+    text-align: center;
+    align-content: center;
+}
+
+.calzones{
+    margin-top: 25px;
+    height: 100%;
+}
+
+
+/* EXTRASS */
+
+.col-extras{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 13px;
+}
+
+.extras{
+    margin-top: 20px;
+    height: 100%;
+}
+
+/* BEBIDAS */
+
+.linea-bebidas{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bebidas-linea{
+    margin-top: 35px;
+    height: 3px;
+    background-color: #ffff;
+    width: 1px;
+}
+
+.col-bebidas{
+    padding: 0%;
+    margin: 0%;
+}
+
+.img-titulo-bebidas{
+    margin-top: 9px;
+    height: 55px;
+}
+
+
+/* CONTENIDO BEBIDAS */
+
+.titulo-refresco{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 2.2rem;
+    font-family: 'Bebas Neue Bold';
+    color: #ffff;
+}
+
+.titulo-jugos{
+    font-size: 2.2rem;
+    font-family: 'Bebas Neue Bold';
+    color: #e8a900;
+}
+
+.lista-jugos{
+    color: #ffff;
+    font-family: 'Bebas Neue Book';
+    font-size: 1.3rem;
+    list-style-image: url('../img/Tilde.png');
+}
+
+/* PIE DE PAGINA */
+
+.footter{
+    height: 50px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+
+.img-what{
+    display: inline-block;
+}
+
+.nume-w{
+    margin-left: 8px;
+    color: #ffff;
+    font-family: Bebas Neue;
+    display:inline-block;
+}
+
+.img-ins{
+    text-align: right;
+}
