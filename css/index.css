@@ -318,7 +318,7 @@ button.navbar-toggler{
 }
 
 .pizza1-extras-sb{
-    font-family: 'Bebas Neue Black';
+    font-family: 'Bebas Neue Regular';
     color: rgb(0, 0, 0);
     letter-spacing: 2px;
     padding: 4px 0px 1px 0px;
@@ -326,7 +326,7 @@ button.navbar-toggler{
     display: inline-block
 }
 .pizza2-extras-sb{
-    font-family: 'Bebas Neue Black';
+    font-family: 'Bebas Neue Bold';
     color: rgb(0, 0, 0);
     letter-spacing: 2px;
     padding: 4px 0px 1px 0px;
