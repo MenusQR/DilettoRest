@@ -33,6 +33,10 @@
     src: url(../fonts/Montserrat-Bold.otf) format('truetype');
 }
 
+body{
+    background-color: #030303;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -58,14 +62,6 @@ html{
 }
 
 .imagen-lg{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-/* IMAGEN FONDO  */
-.imagen-fondo{
     height: 100%;
     width: 100%;
     position: fixed;
