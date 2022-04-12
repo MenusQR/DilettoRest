@@ -394,7 +394,8 @@ button.navbar-toggler{
 
 .calzones{
     margin-top: 25px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -408,7 +409,8 @@ button.navbar-toggler{
 
 .extras{
     margin-top: 20px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;;
 }
 
 /* BEBIDAS */
